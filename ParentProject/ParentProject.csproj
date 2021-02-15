@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup Label="Project">
+      <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
+      <OutputType>Library</OutputType>
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+      <AssemblyTitle>ParentProject</AssemblyTitle>
+      <AssemblyName>ParentProject</AssemblyName>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
+      <NoWarn>$(NoWarn);CS1591;NU5104</NoWarn>
+      <DefineConstants>$(DefineConstants);JETBRAINS_ANNOTATIONS</DefineConstants>
+    </PropertyGroup>
+    <ItemGroup Label="Package References">
+      <PackageReference Include="ppy.osu.Framework" Version="2021.204.0" />
+      <EmbeddedResource Include="Resources/**/*" />
+    </ItemGroup>
+  </Project>

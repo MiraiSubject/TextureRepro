@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildProject.Desktop", "ChildProject.Desktop\ChildProject.Desktop.csproj", "{1BA9F243-6BE8-4A3A-835E-4B08FEBCE8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildProject.Game", "ChildProject.Game\ChildProject.Game.csproj", "{B3B4D74A-53ED-4658-BE25-587701C7785B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentProject", "ParentProject\ParentProject.csproj", "{DAF0A6D6-E41B-4392-8436-E85AC1A1D639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA9F243-6BE8-4A3A-835E-4B08FEBCE8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA9F243-6BE8-4A3A-835E-4B08FEBCE8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA9F243-6BE8-4A3A-835E-4B08FEBCE8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA9F243-6BE8-4A3A-835E-4B08FEBCE8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B4D74A-53ED-4658-BE25-587701C7785B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B4D74A-53ED-4658-BE25-587701C7785B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B4D74A-53ED-4658-BE25-587701C7785B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B4D74A-53ED-4658-BE25-587701C7785B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF0A6D6-E41B-4392-8436-E85AC1A1D639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF0A6D6-E41B-4392-8436-E85AC1A1D639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF0A6D6-E41B-4392-8436-E85AC1A1D639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF0A6D6-E41B-4392-8436-E85AC1A1D639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
